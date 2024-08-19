@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    border: none;
+    padding: 0px;
+}
+content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(224, 172, 172);
+}
+.organisaBotoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tamanhoImagem{
+    width: 100%;
+    height: 100vh;
+}
+.icon{
+    width: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.organisaImagemBotoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+   border: 2px solid black;
+   background-color: rgba(4, 33, 61, 0.582);
+   color: white;
+   margin-left: 8px;
+   width: 150px;
+   height: 40px;
+   font-size: 2em;
+   cursor: pointer;
+}
+.botoes:hover{
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.514);
+    width: 140px;
+    height: 40;
+    margin-left: 18px;
+}
+.organisaLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+
+    
+}
+.logoTipo{
+    width: 150px;
+   
+}
+.divH1{
+    width: 80%;
+    text-align: center;
+
+}
+p{
+    font-size: 1em
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+.fundoPopup{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(218, 216, 216, 0.281);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99999999999999999;
+}
